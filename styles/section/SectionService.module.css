@@ -1,0 +1,187 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.home {
+  position: absolute;
+  width: 180px;
+  top: 55px;
+  right: 450px;
+}
+.home p {
+  text-decoration: none;
+  border-radius: 20%;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  transition: 0.4s;
+  background-color: rgb(23, 28, 46);
+  color: #fff;
+  opacity: 0.9;
+}
+.home p:hover {
+  opacity: 1;
+  color: rgb(255, 175, 56);
+  box-shadow: 5px 5px 5px rgb(190, 132, 23);
+}
+
+.divUl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-image: url("/rastreador.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: right;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 600px;
+  height: 400px;
+  list-style: none;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  opacity: 0.8;
+  padding: 5px;
+}
+
+.ul li {
+  display: flex;
+  align-items: center;
+}
+
+.ul li img {
+  margin-right: 10px;
+  width: 32px;
+}
+
+.ul li span {
+  font-size: 26px;
+  font-weight: 400;
+  color: #0e0a41;
+}
+
+.ul2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+.ul2 li {
+  display: flex;
+  align-items: center;
+}
+
+.ul2 li img {
+  width: 60px;
+  margin-right: 5px;
+}
+
+.ul2 .divText {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .divTitle {
+    width: 95%;
+    height: 400px;
+  }
+
+  .ul2 li img {
+    width: 50px;
+  }
+
+  .ul2 .divText {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 900px) {
+  .home {
+    right: 10px;
+    top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .ul2 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 270px;
+  }
+}
+
+@media (max-width: 640px) {
+  .ul {
+    width: 95%;
+  }
+
+  .divImg {
+    width: 90%;
+  }
+
+  .divTitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 460px) {
+  .home {
+    width: 80px;
+  }
+  .home p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .ul {
+    height: 450px;
+  }
+
+  .ul li span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  .divTitle h2 {
+    font-size: 25px;
+  }
+
+  .divTitle h3 {
+    font-size: 28px;
+  }
+
+  .ul2 li img {
+    max-width: 40px;
+  }
+
+  .ul2 .divText {
+    font-size: 12px;
+    font-weight: 600;
+    max-width: 160px;
+  }
+}

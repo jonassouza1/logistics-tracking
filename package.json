@@ -1,0 +1,26 @@
+{
+  "name": "jonas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.0.7",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "swiper": "^12.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/prettier": "^3.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
