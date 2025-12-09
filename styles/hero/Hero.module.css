@@ -1,60 +1,50 @@
 .section {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 700px;
-    background-image: url("/fundo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position-x: right;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-image: url("/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: right;
 }
 
 .divText {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    letter-spacing: 2px;
-    font-size: 20px;
-    line-height: 35px;
-    width: 600px;
-    padding: 5px 10px;
-    background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+  line-height: 35px;
+  width: 600px;
+  padding: 5px 10px;
+  background-color: aliceblue;
 
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
+@media (max-width: 640px) {
+  .section {
+    height: 1000px;
+  }
 
-
-@media(max-width:640px) {
-
-    .section {
-        height: 1000px
-    }
-
-    .divText {
-        width: 95%;
-        font-size: 18px;
-    }
-
-
+  .divText {
+    width: 95%;
+    font-size: 18px;
+  }
 }
 
-@media(max-width:300px) {
+@media (max-width: 300px) {
+  .section {
+    height: 1300px;
+  }
 
-    .section {
-        height: 1300px;
-    }
+  .divText p {
+    width: 100%;
 
-
-
-    .divText p {
-        width: 100%;
-
-        line-height: 25px;
-        padding: 0 25px;
-    }
+    line-height: 25px;
+    padding: 0 25px;
+  }
 }
