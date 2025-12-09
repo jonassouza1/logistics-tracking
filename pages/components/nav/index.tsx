@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.divImg}>
-        <img src="/7sat.webp" alt="logo da empresa" />
+        <img src="/logistics-tracking/7sat.webp" alt="logo da empresa" />
       </div>
 
       <ul className={styles.ul}>

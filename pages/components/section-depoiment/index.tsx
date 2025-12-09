@@ -13,14 +13,14 @@ import "swiper/css/effect-fade";
 
 const SectionDepoiments = () => {
   const images = [
-    { id: "0", image: "/car0.jpg" },
-    { id: "1", image: "/car1.jpg" },
-    { id: "2", image: "/car2.jpg" },
-    { id: "3", image: "/car3.jpg" },
-    { id: "4", image: "/car4.jpg" },
-    { id: "5", image: "/car5.jpg" },
-    { id: "6", image: "/car6.jpg" },
-    { id: "7", image: "/car7.jpg" },
+    { id: "0", image: "/logistics-tracking/car0.jpg" },
+    { id: "1", image: "/logistics-tracking/car1.jpg" },
+    { id: "2", image: "/logistics-tracking/car2.jpg" },
+    { id: "3", image: "/logistics-tracking/car3.jpg" },
+    { id: "4", image: "/logistics-tracking/car4.jpg" },
+    { id: "5", image: "/logistics-tracking/car5.jpg" },
+    { id: "6", image: "/logistics-tracking/car6.jpg" },
+    { id: "7", image: "/logistics-tracking/car7.jpg" },
   ];
 
   const [count, setCount] = useState<number>(6);
@@ -57,7 +57,7 @@ const SectionDepoiments = () => {
       <div className={styles.gradient}></div>
       <div className={styles.divTitle}>
         <h2>GALERIA DE CLIENTES</h2>
-        <img src="/logo.png" alt="logo da empresa" />
+        <img src="/logistics-tracking/logo.png" alt="logo da empresa" />
       </div>
 
       <div className={styles.carousel}>

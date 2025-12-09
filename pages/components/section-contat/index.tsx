@@ -22,13 +22,15 @@ const SectionContat = () => {
         </div>
 
         <div className={styles.divImg}>
-          <img src="/logo.png" alt="logo imagem" />
+          <img src="/logistics-tracking/logo.png" alt="logo imagem" />
         </div>
       </div>
 
       <div className={styles.divMapa}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.653924188996!2d-51.11143182330786!3d-29.700811715428905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951943f444b7a105%3A0x2a2d2ef1914aeba!2sR.%20Maria%20Olinda%20Telles%2C%20900%20-%20Canudos%2C%20Novo%20Hamburgo%20-%20RS%2C%2093546-060!5e0!3m2!1spt-BR!2sbr!4v1720099062950!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13865.411944121952!2d-51.06450785!3d-29.680544149999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519404c8f33fce5%3A0xb32874be45a1bbec!2sPosto%20Jacar%C3%A9%20(Shell)%20-%20Rede%20GASGAS!5e0!3m2!1spt-BR!2sbr!4v1765298474196!5m2!1spt-BR!2sbr"
+          width="600"
+          height="450"
           loading="lazy"
         ></iframe>
       </div>

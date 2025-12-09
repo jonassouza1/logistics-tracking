@@ -7,13 +7,16 @@ const Header = () => {
       <Nav />
       <div className={styles.container}>
         <div className={styles.divImg}>
-          <img src="/home.png" alt="imagem de fundo da empresa" />
+          <img
+            src="/logistics-tracking/home.png"
+            alt="imagem de fundo da empresa"
+          />
         </div>
 
         <div className={styles.divTitle}>
           <h1>Sobre a</h1>
 
-          <img src="/logo.png" alt="logo da empresa 7sat" />
+          <img src="/logistics-tracking/logo.png" alt="logo da empresa 7sat" />
         </div>
       </div>
     </header>

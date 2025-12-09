@@ -22,31 +22,52 @@ const SectionService = () => {
       <div className={styles.divUl}>
         <ul className={styles.ul}>
           <li>
-            <img src="/segurança.png" alt="seguranaça veicular" />
+            <img
+              src="/logistics-tracking/segurança.png"
+              alt="seguranaça veicular"
+            />
             <span>Mais Segurança</span>
           </li>
           <li>
-            <img src="/tranquilidade.png" alt="seguranaça veicular" />
+            <img
+              src="/logistics-tracking/tranquilidade.png"
+              alt="seguranaça veicular"
+            />
             <span>Mais Tranquilidade</span>
           </li>
           <li>
-            <img src="/monitorar.png" alt="seguranaça veicular" />
+            <img
+              src="/logistics-tracking/monitorar.png"
+              alt="seguranaça veicular"
+            />
             <span>Monitore seu veículo em tempo real 24 horas por dia</span>
           </li>
           <li>
-            <img src="/velocidade.png" alt="seguranaça veicular" />
+            <img
+              src="/logistics-tracking/velocidade.png"
+              alt="seguranaça veicular"
+            />
             <span>Controle de Velocidade</span>
           </li>
           <li>
-            <img src="/acesso.png" alt="seguranaça veicular" />
+            <img
+              src="/logistics-tracking/acesso.png"
+              alt="seguranaça veicular"
+            />
             <span>Acesso 24 horas pelo APP</span>
           </li>{" "}
           <li>
-            <img src="/historico.png" alt="seguranaça veicular" />
+            <img
+              src="/logistics-tracking/historico.png"
+              alt="seguranaça veicular"
+            />
             <span>Histórico de Rotas</span>
           </li>
           <li>
-            <img src="/qualidade.png" alt="seguranaça veicular" />
+            <img
+              src="/logistics-tracking/qualidade.png"
+              alt="seguranaça veicular"
+            />
             <span>Serviço de Qualidade</span>
           </li>
         </ul>
@@ -54,25 +75,28 @@ const SectionService = () => {
 
       <ul className={styles.ul2}>
         <li>
-          <img src="/homologado.png" alt="seguranaça veicular" />
+          <img
+            src="/logistics-tracking/homologado.png"
+            alt="seguranaça veicular"
+          />
           <div className={styles.divText}>
             <span>RASTREADORES HOMOLOGADOS PELA ANATEL</span>
           </div>
         </li>
         <li>
-          <img src="/casa.png" alt="seguranaça veicular" />
+          <img src="/logistics-tracking/casa.png" alt="seguranaça veicular" />
           <div className={styles.divText}>
             <span>VAMOS ATÉ SUA CASA</span>
           </div>
         </li>
         <li>
-          <img src="/cartao.png" alt="seguranaça veicular" />
+          <img src="/logistics-tracking/cartao.png" alt="seguranaça veicular" />
           <div className={styles.divText}>
             <span>ACEITAMOS PARCELAMENTO NO CARTÃO</span>
           </div>
         </li>
         <li>
-          <img src="/duvida.png" alt="seguranaça veicular" />
+          <img src="/logistics-tracking/duvida.png" alt="seguranaça veicular" />
           <div className={styles.divText}>
             <span>PARA MAIS INFORMAÇÕES ENTRE EM CONTATO CONOSCO</span>
           </div>

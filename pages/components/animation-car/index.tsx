@@ -3,7 +3,7 @@ const AnimationCar = () => {
   return (
     <section className={styles.section}>
       <div className={styles.divImg}>
-        <img src="/logo1.png" alt="logo marca" />
+        <img src="/logistics-tracking/logo1.png" alt="logo marca" />
       </div>
 
       <h1>Monitore</h1>
@@ -11,10 +11,14 @@ const AnimationCar = () => {
       <span className={styles.animatedsubtitle}>
         <img
           className={styles.ponteiro}
-          src="/ponteiro.png"
+          src="/logistics-tracking/ponteiro.png"
           alt="ponteiro de localização"
         />
-        <img className={styles.car} src="/car.png" alt="veiculo" />
+        <img
+          className={styles.car}
+          src="/logistics-tracking/car.png"
+          alt="veiculo"
+        />
       </span>
       <h2>Com</h2>
       <div className={styles.animatedheader}>

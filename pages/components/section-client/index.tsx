@@ -19,7 +19,7 @@ const SectionClient = () => {
       </div>
 
       <div className={styles.divLogo}>
-        <img src="/logo.png" alt="" />
+        <img src="/logistics-tracking/logo.png" alt="" />
       </div>
       <h3>ACESSE SUA PLATAFORMA,</h3>
       <div className={styles.animatedtext}>
@@ -80,14 +80,20 @@ const SectionClient = () => {
         <div className={styles.divImg}>
           <div className={styles.arrow}></div>
           <Link href="#" target="_blank">
-            <img src="/getrak.webp" alt="link do site getrak" />
+            <img
+              src="/logistics-tracking/getrak.webp"
+              alt="link do site getrak"
+            />
             <p>Acesse AURUM</p>
           </Link>
         </div>
         <div className={styles.divImg}>
           <div className={styles.arrow}></div>
           <Link href="#" target="_blank">
-            <img src="/fulltrack.webp" alt="link do site fulltrackapp" />
+            <img
+              src="/logistics-tracking/fulltrack.webp"
+              alt="link do site fulltrackapp"
+            />
             <p>Acesse AURUM</p>
           </Link>
         </div>
